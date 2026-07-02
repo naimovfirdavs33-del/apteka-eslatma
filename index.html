@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dori Eslatma</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💊 Dori Eslatma</h1>
+
+<button id="permission">
+Bildirishnomaga ruxsat berish
+</button>
+
+<form id="form">
+
+<input
+type="text"
+id="nomi"
+placeholder="Dori nomi"
+required>
+
+<input
+type="time"
+id="vaqt"
+required>
+
+<select id="holati">
+
+<option>Ovqatdan oldin</option>
+
+<option>Ovqat paytida</option>
+
+<option>Ovqatdan keyin</option>
+
+</select>
+
+<button>Qo'shish</button>
+
+</form>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Dori</th>
+
+<th>Vaqt</th>
+
+<th>Holati</th>
+
+<th></th>
+
+</tr>
+
+</thead>
+
+<tbody id="list">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
